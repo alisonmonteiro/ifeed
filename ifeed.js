@@ -1,5 +1,5 @@
 ;(function() {
-  var App = function(selector) {
+  var App = function(selector, opts) {
     var options = {
       get: 'popular',
       tagName: null,
@@ -248,6 +248,6 @@
   };
 
   HTMLElement.prototype.ifeed = function(opts) {
-    return App(this).init();
+    return App(this, opts).init();
   }
 })();
