@@ -1,0 +1,25 @@
+{
+  "name": "ifeed",
+  "version": "0.0.3",
+  "description": "Instagram feed on your browser. No jquery. Only 2kb gzipped!",
+  "main": "ifeed.js",
+  "bugs": "https://github.com/alisonmonteiro/ifeed/issues",
+  "homepage": "https://github.com/alisonmonteiro/ifeed",
+  "keywords": [
+    "ifeed",
+    "instagram-feed",
+    "instagram",
+    "browser",
+    "alison",
+    "monteiro"
+  ],
+  "author": {
+    "name": "Alison Monteiro",
+    "email": "alisonmonteiro.10@gmail.com",
+    "url": "alisonmonteiro.com.br"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "uglify-js": "^2.6.2"
+  }
+}

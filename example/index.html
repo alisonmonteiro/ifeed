@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <title>ifeed Example</title>
+</head>
+<body>
+
+  <div id="ifeed"></div>
+
+  <!-- all js code you need -->
+  <script src="../ifeed.min.js"></script>
+  <script>
+    var opts = {
+      resolution: 'thumbnail',
+      get: 'user',
+      userId: YOUR_USER_ID,
+      accessToken: 'YOUR_ACCESS_TOKEN',
+      sortBy: 'least-liked'
+    };
+
+    document.getElementById('ifeed').ifeed(opts)
+  </script>
+</body>
+</html>
